@@ -6,10 +6,10 @@ terraform {
     }
   }
       backend "s3" {
-    bucket = "terraform-vpc-bucket-arun-practice"      #create bucket with this name in aws cloud
-    key    = "terraform-roboshop-ec2_instance-for-all"
+    bucket = "terraform-vpc-bucket-arun-practice"     
+    key    = "terraform-roboshop-ec2"
     region = "us-east-1"
-    dynamodb_table = "terraform-vpc-bucket-arundev-online-practice" #create dunamodb lock with this name in aws cloud
+    dynamodb_table = "terraform-vpc-bucket-arundev-online-practice"     
   }
 }
 

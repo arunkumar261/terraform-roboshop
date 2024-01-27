@@ -7,7 +7,7 @@ terraform {
   }
       backend "s3" {
     bucket = "terraform-vpc-bucket-arun-practice"      #create bucket with this name in aws cloud
-    key    = "terraform-roboshop-sg-for-all"
+    key    = "terraform-roboshop-sg"
     region = "us-east-1"
     dynamodb_table = "terraform-vpc-bucket-arundev-online-practice" #create dunamodb lock with this name in aws cloud
   }

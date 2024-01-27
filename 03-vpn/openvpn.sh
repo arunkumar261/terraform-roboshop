@@ -12,6 +12,9 @@ export COMPRESSION_ENABLED=n
 export CUSTOMIZE_ENC=n
 export CLIENT=devops76s
 export PASS=1
-curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+echo "before download"
+curl -fO https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 chmod +x openvpn-install.sh
 ./openvpn-install.sh
+
+
