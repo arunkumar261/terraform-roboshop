@@ -10,7 +10,7 @@ export PROTOCOL_CHOICE=2
 export DNS=1
 export COMPRESSION_ENABLED=n
 export CUSTOMIZE_ENC=n
-export CLIENT=devops76s
+export CLIENT=arunvpn
 export PASS=1
 echo "before download"
 curl -fO https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
